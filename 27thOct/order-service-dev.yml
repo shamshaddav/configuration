@@ -3,9 +3,9 @@ spring:
     name: order-service
 
   datasource:
-    url: jdbc:mysql://localhost:3306/orderdb_dev   # changed from mysql → localhost
+    url: jdbc:mysql://localhost:3306/kafka   # changed from mysql → localhost
     username: root
-    password: Test@12345
+    password: Shamshad@123
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
